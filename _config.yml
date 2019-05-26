@@ -1,2 +1,32 @@
-theme: jekyll-theme-cayman
+theme: datamela
 email: datamela.com@gmail.com # email for form submission
+
+# SITE CONFIGURATION
+author: DataMela # You :P
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://datamela.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: DataMela
+  links:
+    - https://twitter.com/datamela_
+    - https://www.facebook.com/datamela
+    - https://www.linkedin.com/company/datamela
+    
+
+
+
+twitter_username: datamela # replace with your_twitter_username or comment to remove link from footer
+github_username:  datamela
+linkedin_username: datamela
+facebook_username: datamela
+
+
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
